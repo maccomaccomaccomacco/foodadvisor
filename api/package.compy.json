@@ -1,0 +1,40 @@
+{
+  "name": "foodadvisor",
+  "private": true,
+  "version": "2.0.1",
+  "description": "Official Strapi Demo Application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "seed": "node script/seed.js"
+  },
+  "dependencies": {
+    "@offset-dev/strapi-calendar": "^0.0.10",
+    "@strapi/plugin-graphql": "5.0.0-beta.16",
+    "@strapi/plugin-users-permissions": "5.0.0-beta.16",
+    "@strapi/strapi": "5.0.0-beta.16",
+    "@webbio/strapi-plugin-scheduler": "^0.1.2",
+    "better-sqlite3": "9.4.3",
+    "fs-extra": "^10.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "strapi-plugin-navigation": "^2.5.2",
+    "styled-components": "^6.0.0",
+    "unzip-stream": "^0.3.1",
+    "uuid-v4": "^0.1.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "FOODADVISOR-LOCAL-8dc5ea3d-1232-4533-b39a-fa2e73ddd3a9"
+  },
+  "engines": {
+    "node": ">=14.x.x <=20.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
